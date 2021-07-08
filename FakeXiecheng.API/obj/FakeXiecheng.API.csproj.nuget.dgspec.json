@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\我的学习资源\\Net\\FakeXiecheng.API\\FakeXiecheng.API\\FakeXiecheng.API.csproj": {}
+    "D:\\Demo\\FakeXiecheng.API\\FakeXiecheng.API\\FakeXiecheng.API.csproj": {}
   },
   "projects": {
-    "E:\\我的学习资源\\Net\\FakeXiecheng.API\\FakeXiecheng.API\\FakeXiecheng.API.csproj": {
+    "D:\\Demo\\FakeXiecheng.API\\FakeXiecheng.API\\FakeXiecheng.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\我的学习资源\\Net\\FakeXiecheng.API\\FakeXiecheng.API\\FakeXiecheng.API.csproj",
+        "projectUniqueName": "D:\\Demo\\FakeXiecheng.API\\FakeXiecheng.API\\FakeXiecheng.API.csproj",
         "projectName": "FakeXiecheng.API",
-        "projectPath": "E:\\我的学习资源\\Net\\FakeXiecheng.API\\FakeXiecheng.API\\FakeXiecheng.API.csproj",
+        "projectPath": "D:\\Demo\\FakeXiecheng.API\\FakeXiecheng.API\\FakeXiecheng.API.csproj",
         "packagesPath": "C:\\Users\\v-wenyang\\.nuget\\packages\\",
-        "outputPath": "E:\\我的学习资源\\Net\\FakeXiecheng.API\\FakeXiecheng.API\\obj\\",
+        "outputPath": "D:\\Demo\\FakeXiecheng.API\\FakeXiecheng.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Visual Studio2019\\Shared\\NuGetPackages",
+          "C:\\softwareInstallationPath\\Visual Studio 2019\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
@@ -28,7 +28,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://pdetsnuget.corp.microsoft.com/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -49,11 +48,17 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[5.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.6, )"
             }
           },
           "imports": [
